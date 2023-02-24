@@ -1,7 +1,7 @@
 # salton-sea
 Code and data from a 2016 analysis of bird populations at the Salton Sea, CA
 
-# Overview
+## Overview
 We used a 0.5 km grid to record the number of birds of each species detected in each survey conducted in each cell. 
 Based on these counts, we assigned 0/1 to presence/absence of a species in each cell for each survey conducted during the 
 year and survey period (starting and ending months). So, a cell may have one to many 0’s and many 1’s if: during the years 
@@ -12,7 +12,7 @@ so that a non-detection (i.e., a 0) had a weight of 1, and a detection was weigh
 (or rather, their inverse) were then used for the BRT. The idea of the weights was to add more certainty to a presence if 
 the numbers were larger, as it shows a stronger preference by the species for the location.
 
-# Files Included
+## Files Included
 Full bird data are in RData files in several formats.  The birds directory has three files containing data for all species,
 additionally broken out into different the two different sampling resolutions (0.5 and 2.5km).  These differ in the spatial 
 resolution used to filter and process the observations.
@@ -50,5 +50,5 @@ The reports folder contains the final report to funders and technical report, pr
 
 The models folder is empty and is included so that the code will run as expected.
 
-# Contact
+## Contact
 Please contact Nathan Elliott (nelliott@pointblue.org) or Leo Salas (lsalas@pointblue.org) with questions.
